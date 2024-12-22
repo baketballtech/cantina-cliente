@@ -1,15 +1,27 @@
 {
-    "version": 2,
-    "builds": [
-        {
-        "src": "script_servidor.js",
-        "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-        "src": "/(.*)",
-        "dest": "/script_servidor.js"
-        }
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "/script_servidor.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/cantina_dados",
+      "dest": "/script_servidor.js"
+    },
+    {
+      "src": "/novidades",
+      "dest": "/script_servidor.js"
+    },
+    {
+      "src": "/empresa",
+      "dest": "/script_servidor.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/script_servidor.js"
+    }
+  ]
 }
