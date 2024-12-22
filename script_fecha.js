@@ -1,0 +1,1 @@
+async function muda(e){novidade.style.display=e}var novidade=document.getElementById("novidades");document.getElementById("fecha").addEventListener("click",async function(){novidade.style.display="none"}),document.getElementById("novidade").addEventListener("click",async function(){novidade.style.display="block"});

@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){async function n(n){return new Promise(e=>setTimeout(e,n))}async function e(){await n(5e3),console.log("Já passaram 5s");var s=t.src,o=c.src,r=a.src;t.src=o,c.src=r,a.src=s,e()}var t=document.getElementById("cantina2"),c=document.getElementById("cantina1"),a=document.getElementById("cantina3");e()});

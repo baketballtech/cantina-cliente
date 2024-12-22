@@ -1,0 +1,1 @@
+document.getElementById("hamburger_").addEventListener("click",function(){const e=document.getElementById("temas");e.style.display="block",this.style.display="none"}),document.getElementById("hamburger").addEventListener("click",function(){const e=document.getElementById("hamburger_");e.style.display="block";const t=document.getElementById("temas");t.style.display="none"});
